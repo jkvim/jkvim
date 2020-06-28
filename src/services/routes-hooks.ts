@@ -4,6 +4,4 @@ export function useRouter() {
   const initialRouter = {
     path: "/",
   };
-
-  const [] = useContext()
 }

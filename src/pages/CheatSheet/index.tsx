@@ -1,17 +1,17 @@
+
 import React from "react";
 import NavBar from "/@/layouts/NavBar";
 import Footer from "/@/layouts/Footer";
 import Layout from "/@/layouts/Layout";
-import logo from '/@/assets/vim8.png';
 
-import "./style.css";
+import "./index.css";
 
-const Home = (props) => {
+const CheatSheet = (props) => {
   const header = <NavBar />
   const body = (
     <div>
-      <div className="home__banner">
-        <img src={logo} className="home__logo" />
+      <div className="cheat-sheet__banner">
+        CheatSheet        
       </div>
     </div>
   );
@@ -22,4 +22,4 @@ const Home = (props) => {
   );
 };
 
-export default Home;
+export default CheatSheet;

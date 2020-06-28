@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react'
+import { Router } from '@reach/router'
+
 import Home from '/@/pages/Home/index'
+import CheatSheet from '/@/pages/CheatSheet/index'
+import KataList from './pages/KataList/index';
 
 import './App.css';
 import '/@/styles/root.css'
 
-const RouterContext = React.createContext(null);
-
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
-      <RouterContext.Provider value={null}>
-        <Home />
-      </RouterContext.Provider>
-    </div>
+    <Router>
+      <Home path="/" />
+      <CheatSheet path="/cheat-sheet"></CheatSheet>
+      <KataList path="/kata-list"></KataList>
+    </Router>
   );
 }
 
