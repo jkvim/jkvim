@@ -1,0 +1,21 @@
+
+.navbar {
+    display: flex;
+    background-color: var(--gray--color);
+    height: 100%;
+    padding: 10px 30px;
+}
+
+.navbar__links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    color: var(--light--color);
+}
+
+.navbar__logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--light--color);
+}

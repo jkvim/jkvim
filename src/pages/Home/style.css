@@ -1,0 +1,17 @@
+.home {
+    height: 100%;
+}
+
+.home__banner {
+    height: 400px;
+    background-color: var(--primary--color);
+    display: flex;
+    align-items: center;
+}
+
+.home__logo {
+    width: 400px;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--light--color);
+}

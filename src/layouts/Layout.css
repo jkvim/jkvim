@@ -1,0 +1,18 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid yellow;
+}
+
+.layout__header {
+    display: block;
+}
+
+.layout__body {
+    flex: 1;
+}
+
+.layout__footer {
+    display: block;
+}
