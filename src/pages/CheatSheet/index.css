@@ -1,3 +1,7 @@
+.cheat-sheet__section {
+  margin-bottom: 30px;
+}
+
 .cheat-sheet__section-body {
   /* display: flex;
   justify-content: space-evenly;

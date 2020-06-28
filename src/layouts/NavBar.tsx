@@ -8,7 +8,9 @@ export default () => {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <img src={logo} className="navbar__logo-icon" />
+        <Link to="/">
+          <img src={logo} className="navbar__logo-icon" />
+        </Link>
       </div>
       <div className="navbar__links">
         <Link to="/cheat-sheet">快捷键清单</Link>

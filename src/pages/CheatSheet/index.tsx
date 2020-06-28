@@ -68,6 +68,16 @@ const CheatSheet = (props) => {
           ))}
         </div>
       </div>
+      <div className="cheat-sheet__section">
+        <div className="cheat-sheet__section-title">Reference</div>
+        <div className="cheat-sheet__section-body">
+          <ul>
+            <li>
+              <a href="https://devhints.io/vim">Vim CheatSheet</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
   const footer = <Footer />;
