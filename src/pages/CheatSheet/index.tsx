@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "/@/layouts/NavBar";
-import Footer from "/@/layouts/Footer";
-import Layout from "/@/layouts/Layout";
+import NavBar from "../../layouts/NavBar";
+import Footer from "../../layouts/Footer";
+import Layout from "../../layouts/Layout";
 import ShortcutList from "../../components/ShortcutList/index";
 
 import { generalShortcut, operators, textObjects, misc } from "./cheatsheet";

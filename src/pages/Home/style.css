@@ -1,17 +1,43 @@
 .home {
-    height: 100%;
+  height: 100%;
 }
 
-.home__banner {
-    height: 400px;
-    background-color: var(--primary--color);
-    display: flex;
-    align-items: center;
+.kata-list {
+  list-style: none;
 }
 
-.home__logo {
-    width: 400px;
-    font-size: 36px;
-    font-weight: bold;
-    color: var(--light--color);
+.kata-item {
+  max-width: 800px;
+  /* cursor: pointer; */
+  text-decoration: none;
+}
+
+.kata-item-link {
+  text-decoration: none;
+  color: var(--dark--color);
+}
+
+.kata-item:hover {
+}
+
+.kata-title {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.kata-tags {
+  margin: 10px 0;
+}
+
+.kata-tags-item {
+  font-size: 0.8rem;
+  color: red;
+}
+
+.kata-description {
+  border-left: 2px solid var(--secondary--color);
+  padding: 10px 10px;
+  color: var(--gray--color);
 }

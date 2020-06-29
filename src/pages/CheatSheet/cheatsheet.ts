@@ -1,4 +1,4 @@
-import { ShortcutProps } from "/@/components/ShortcutList/index";
+import { ShortcutProps } from "../../components/ShortcutList/index";
 
 type ShortcutList = Array<
   Pick<ShortcutProps, "groups" | "title" | "bottomTips">
