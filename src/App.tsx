@@ -12,10 +12,8 @@ import KataDetail from './pages/KataDetail/index';
 function App() {
   return (
     <Router>
-      <Home path="/" />
-      <CheatSheet path="/cheat-sheet"></CheatSheet>
-      <KataList path="/kata-list"></KataList>
-      <KataDetail path="/kata-detail/:id"></KataDetail>
+      <CheatSheet path="/"></CheatSheet>
+      <KataDetail path="/kata-detail"></KataDetail>
     </Router>
   );
 }

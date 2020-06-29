@@ -3,14 +3,31 @@
   background-color: var(--gray--color);
   height: 100%;
   padding: 10px 30px;
+  align-items: center;
 }
 
 .navbar__links {
-  flex: 1;
   display: flex;
-  justify-content: flex-end;
-  padding-right: 30px;
   color: var(--light--color);
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  width: auto;
+  padding: 10px 8px;
+  position: relative;
+}
+
+.navbar__links.active:after {
+  display: block;
+  content: '';
+  height: 0.25rem;
+  width: auto;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  right: 0;
+  bottom: -0.5rem;
+  background-color: var(--primary--color);
 }
 
 .navbar__logo {

@@ -1,0 +1,18 @@
+
+.kata-board__step {
+  padding: 10px 20px;
+  border: 2px solid var(--secondary--color);
+  color: var(--dark--color);
+  margin: 30px;
+  border-radius: 4px;
+}
+
+.kata-board_finished {
+  background: #ddf0d7;
+  border-color: #a4cd98;
+  color: #1c652c;
+  padding: 10px 35px 10px 14px;
+  border-radius: 4px;
+  margin: 30px;
+  width: 800px;
+}
