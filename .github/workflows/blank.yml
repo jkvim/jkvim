@@ -36,7 +36,7 @@ jobs:
 
     - name: Deploy to Server
       uses: Burnett01/rsync-deployments@4.1
-      env:
+      with:
         switches: "-avzr --delete" 
         path: "dist/" 
         remote_host: ${{ secrets.DEPLOY_HOST }}
