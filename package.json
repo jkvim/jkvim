@@ -6,7 +6,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@jkvim/react-codemirror2": "^7.2.1",
+    "@jkvim/react-codemirror2": "^7.3.0",
     "@pika/react": "^16.13.1",
     "@pika/react-dom": "^16.13.1",
     "@reach/router": "^1.3.4",
