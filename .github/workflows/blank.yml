@@ -22,10 +22,10 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: use Node.js 10
-      uses: actions/setup-node@v1
+    - name: use Node.js 12
+      uses: actions/setup-node@v2-beta
       with:
-        node-version: 10
+        node-version: 12
 
     - name: npm install and build
       run: |
@@ -34,21 +34,13 @@ jobs:
       env:
         CI: true  
 
-    # 部署到腾讯云服务器
     - name: Deploy to Server
-      uses: burnett01/rsync-deployments@4.0
+      uses: Burnett01/rsync-deployments@4.1
       env:
-        # 本地.ssh文件下的私钥id_rsa，存在secrets的TOKEN中
-        SSH_PRIVATE_KEY: ${{ secrets.TOKEN }} 
-        # 复制操作的参数。"-avzr --delete"意味部署时清空服务器目标目录下的文件
-        ARGS: "-avzr --delete" 
-        # 源目录，相对于$GITHUB_WORKSPACE根目录的路径
-        SOURCE: "." 
-        # 服务器域名
-        REMOTE_HOST: "193.112.122.214" 
-        # 腾讯云默认用户名为root
-        REMOTE_USER: "ubuntu" 
-        # 目标目录
-        TARGET: "/usr/share/nginx/html" 
-
+        switches: "-avzr --delete" 
+        path: "dist/" 
+        remote_host: ${{ secrets.DEPLOY_HOST }}
+        remote_user: ${{ secrets.DEPLOY_USER }} 
+        remote_key: ${{ secrets.TOKEN }} 
+        remote_path: "/usr/share/nginx/html" 
 
