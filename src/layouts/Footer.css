@@ -1,5 +1,9 @@
 .footer {
-    height: 100%;
-    background-color: var(--gray--color);
-    color: var(--light--color)
+  display: flex;
+  height: 40px;
+  background-color: var(--gray--color);
+  color: var(--light--color);
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
 }

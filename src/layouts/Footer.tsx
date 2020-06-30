@@ -3,6 +3,6 @@ import './Footer.css'
 
 export default () => {
     return (
-        <div className="footer">Footer</div>
+        <div className="footer">© 2020 jkvim</div>
     )
 }
