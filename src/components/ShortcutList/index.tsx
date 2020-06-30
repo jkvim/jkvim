@@ -30,11 +30,11 @@ export default (props: ShortcutProps) => {
         {props.title}
       </div>
       <div className="shortcut-list__body">
-        {props.groups.map((group) => (
-          <div className="shortcut-list__group">
+        {props.groups.map((group, index) => (
+          <div className="shortcut-list__group" key={`shortcut-group_${index}`}>
             <div className="shortcut-list__group-name">{group.name}</div>
             {group.shortcuts.map((shortcut) => (
-              <div className="shortcut-list__shortcut">
+              <div className="shortcut-list__shortcut" key={shortcut.key}>
                 <div className="shortcut-list__shortcut__key">
                   {shortcut.key}
                 </div>

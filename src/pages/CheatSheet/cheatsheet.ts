@@ -441,7 +441,7 @@ const operators = [
     bottomTips: "See :help operator",
   },
   {
-    title: "Operators list",
+    title: "Examples",
     groups: [
       {
         name: "",

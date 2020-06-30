@@ -10,17 +10,16 @@ import "./index.css";
 
 const CheatSheet = (props) => {
   const header = <NavBar />;
-  console.log(generalShortcut);
   const body = (
     <div>
       <div className="cheat-sheet__section">
         <div className="cheat-sheet__section-body">
           {generalShortcut.map((table, index) => (
             <ShortcutList
-              title={table.title}
+              key={`General_${table.title}`}
               groups={table.groups}
               index={index}
-              key={table.title}
+              title={table.title}
               bottomTips={table.bottomTips}
             />
           ))}
@@ -31,10 +30,10 @@ const CheatSheet = (props) => {
         <div className="cheat-sheet__section-body">
           {operators.map((table, index) => (
             <ShortcutList
-              title={table.title}
+              key={`Operator_${table.title}`}
               groups={table.groups}
               index={index}
-              key={table.title}
+              title={table.title}
               bottomTips={table.bottomTips}
             />
           ))}
@@ -45,10 +44,10 @@ const CheatSheet = (props) => {
         <div className="cheat-sheet__section-body">
           {textObjects.map((table, index) => (
             <ShortcutList
-              title={table.title}
+              key={`TextObject_${table.title}`}
               groups={table.groups}
               index={index}
-              key={table.title}
+              title={table.title}
               bottomTips={table.bottomTips}
             />
           ))}
@@ -59,10 +58,10 @@ const CheatSheet = (props) => {
         <div className="cheat-sheet__section-body">
           {misc.map((table, index) => (
             <ShortcutList
-              title={table.title}
+              key={table.title}
               groups={table.groups}
               index={index}
-              key={table.title}
+              title={table.title}
               bottomTips={table.bottomTips}
             />
           ))}
