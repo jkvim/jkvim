@@ -1,9 +1,15 @@
 .footer {
   display: flex;
-  height: 40px;
+  flex-direction: column;
+  height: 50px;
   background-color: var(--gray--color);
   color: var(--light--color);
   justify-content: center;
   align-items: center;
   font-size: 0.8rem;
+}
+
+.beian a {
+  color: white;
+  text-decoration: none;
 }
