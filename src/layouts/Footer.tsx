@@ -20,7 +20,7 @@ export default () => {
             <p className="gong-an-beian-number">粤公网安备 44030502005659号</p>
           </a>
           <a rel="nofollow" href="http://www.beian.miit.gov.cn" target="_blank">
-            粤ICP备20052074
+            粤ICP备20052074号
           </a>
         </div>
         <div className="copyright">Copyright © 2020 jkvim</div>
