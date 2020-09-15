@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from "@reach/router";
-import logo from '../assets/vim8.png';
 
 import "./NavBar.css";
 
