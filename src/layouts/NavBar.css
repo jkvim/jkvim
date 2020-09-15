@@ -9,7 +9,7 @@
 .navbar__links {
   display: flex;
   color: var(--light--color);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
   font-weight: 500;
   width: auto;
@@ -32,10 +32,10 @@
 
 .navbar__logo {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 500;
   color: var(--light--color);
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 10px 8px;
 }
 
-.navbar__logo-icon {
-  width: 80px;
-}

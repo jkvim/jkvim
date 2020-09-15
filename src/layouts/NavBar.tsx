@@ -11,11 +11,7 @@ export default () => {
 
   return (
     <div className="navbar">
-      <div className="navbar__logo">
-        <Link to="/">
-          <img src={logo} className="navbar__logo-icon" />
-        </Link>
-      </div>
+      <Link to="/" className="navbar__logo"> JKVIM </Link>
       <Link to="/kata-detail" className="navbar__links" getProps={isActive}>
         在线练习
       </Link>
