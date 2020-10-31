@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 -->
 
 - 🔭 I’m currently working on an editor, it will support vim mode, many shortcuts, block link and concept graph
-- 🌱 I’m currently learning Swift, R, TypeScript
+- 🌱 I’m currently learning TypeScript
 - 👯 I’m looking to collaborate with designer or indiehacker, let's make something cool together.
 - 💬 Ask me about anything you are interested
 - 📫 How to reach me: jkvim@outlook.com
