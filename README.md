@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-- 🔭 I’m currently working on an editor, it will support vim mode, many shortcuts, block link and concept graph
+- 🔭 I’m currently working on an editor - [Thunder](https://github.com/thunder-note/thunder), it will support vim mode, many shortcuts, block link and concept graph
 - 🌱 I’m currently learning TypeScript
 - 💬 Ask me about anything you are interested
 - 📫 How to reach me: jkvim@outlook.com
