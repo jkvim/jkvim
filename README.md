@@ -18,6 +18,6 @@ Here are some ideas to get you started:
 -->
 
 - 🔭 I’m currently working on an [editor](https://thunder-web.vercel.app/), it will support vim mode, many shortcuts, block link and concept graph
-- 🌱 I’m currently learning babel and compiler.
+- 🌱 I’m interested in programming language design and compiler.
 - 💬 Ask me about anything you are interested
 - 📫 How to reach me: jkvim@outlook.com
